@@ -1,0 +1,67 @@
+/* back.css */
+
+.back {
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.back h1 {
+  font-size: 80px;
+  font-weight: 400;
+  text-decoration: solid;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding-left: 0;
+}
+
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .back {
+    padding-top: 40%;
+    height: 20vh;
+  }
+
+  .back h1 {
+    font-size: 25px;
+  }
+
+  .back h2 {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .back {
+    padding-top: 40%;
+    height: 20vh;
+  }
+
+  .back h1 {
+    font-size: 25px;
+  }
+
+  .back h2 {
+    font-size: 12px;
+  }
+}
+
+/* Make image responsive */
+.back img {
+  max-width: 100%;
+  height: auto;
+}

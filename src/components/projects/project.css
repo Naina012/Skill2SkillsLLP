@@ -1,0 +1,67 @@
+/* project.css */
+
+/* General styles */
+#Project {
+  margin: 0px;
+  padding: 0;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+}
+
+.project-content {
+  max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+/* Expand button */
+.project-expand-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Projects list */
+.project-lastp {
+  max-width: 1400px; /* Adjust the max-width as needed */
+  margin: 20px auto;
+}
+
+/* project.css */
+
+/* Add a media query for responsiveness */
+@media (max-width: 768px) {
+  .project-section {
+    flex-direction: column;
+  }
+
+  .project-container {
+    width: 100%;
+  }
+
+  .project-image {
+    margin-bottom: 20px;
+  }
+
+  .project-content {
+    width: 100%;
+  }
+
+}
+
+.bttn{
+  display: flex;
+  justify-content: center;
+}
+
